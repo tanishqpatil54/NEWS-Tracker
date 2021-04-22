@@ -6,7 +6,7 @@ let newsAccordian = document.getElementById('newsAccordian');
 // Create AJAX GET Request.
 const xhr = new XMLHttpRequest();
 xhr.open('GET', 'https://gnews.io/api/v4/search?q=example&token=ac0b88503b1507a2f862b6d27d34c667', true);
-// Try alternate : https://newsapi.org/v2/top-headlines?country=in&apiKey=f5e1e60a5d754d619e1863926d305df4
+// Try alternate : https://newsapi.org/v2/top-headlines?country=in&apiKey=ad1cd056e52b4c07b69be24502c5c5c8
 
 // When response is ready.
 xhr.onload = function (){
